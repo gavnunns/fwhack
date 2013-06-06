@@ -89,3 +89,9 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+grails.config.defaults.locations = [KickstartResources]
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.fwhack.security.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.fwhack.security.UserRole'
+grails.plugins.springsecurity.authority.className = 'com.fwhack.security.Role'
