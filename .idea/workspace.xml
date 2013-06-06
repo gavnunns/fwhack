@@ -1,137 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" name="Default" comment="initial checking of domain classes and crud interface">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_errors/403.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_errors/404.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_errors/503.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Controller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/Controller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Controller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/DomainClass.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/DomainClass.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Filters.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Filters.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Generic.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/LogoutController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/fwhack/security/Role.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/ScaffoldingController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Script.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Service.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Service.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/TagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/TagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/Test.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Tests.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/UnitTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/fwhack/security/User.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/fwhack/security/UserRole.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/WebTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_admin.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/_content.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_common/modals/_deleteDialog.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_common/modals/_deleteSymbolLink.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_common/modals/_deleteTextLink.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_common/buttons/_editSymbolLink.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/_footer.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_DemoPage/_form.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/_form.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/_header.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_info.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_language.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_menubar.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_common/modals/_registerDialog.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_common/modals/_registerTextLink.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_common/buttons/_showSymbolLink.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_submenubar.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_user.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/siteinfo/about.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/siteinfo/contact.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_DemoPage/create.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/create.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/login/denied.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/dummy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_DemoPage/edit.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/edit.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_errors/error.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fwhack-grailsPlugins.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/hero-unit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/kickstart.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/layouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_DemoPage/list.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/list.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/home/nextSteps.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/renderEditor.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/responsive-1200px-min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/responsive-767px-max.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/responsive-768px-979px.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/responsive-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_DemoPage/show.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/show.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/sprites.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/siteinfo/systeminfo.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/war/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/less/bootstrap/wells.less" />
-      <change type="DELETED" beforePath="C:\local_depot\Hackerthon\fwhack\grails-app\views\error.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\local_depot\Hackerthon\fwhack\grails-app\views\index.gsp" afterPath="" />
+    <list default="true" id="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" name="Default" comment="checkin with bootstrap">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/fwhack/security/Admin.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/fwhack/security/AdminRole.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/fwhack/SmsControllerTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/parent/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/parent/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studant/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studant/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studantClass/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studantClass/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/teacher/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/teacher/_form.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/siteinfo/contact.gsp" afterPath="$PROJECT_DIR$/grails-app/views/siteinfo/contact.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/parent/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/parent/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studant/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studant/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studantClass/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studantClass/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/teacher/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/teacher/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/parent/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/parent/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studant/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studant/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studantClass/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studantClass/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/teacher/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/teacher/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fwhack-grailsPlugins.iml" afterPath="$PROJECT_DIR$/fwhack-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fwhack.iml" afterPath="$PROJECT_DIR$/fwhack.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/parent/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/parent/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studant/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studant/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studantClass/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studantClass/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/teacher/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/teacher/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/parent/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/parent/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studant/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studant/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/studantClass/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/studantClass/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/teacher/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/teacher/show.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fwhack.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370532864245" ignored="false" />
+    <file path="/Dummy.txt" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370532967953" ignored="false" />
     <file path="/Studant.groovy" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370526526134" ignored="false" />
     <file path="/Teacher.groovy" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370526909152" ignored="false" />
     <file path="/StudantClass.groovy" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370527643021" ignored="false" />
     <file path="/Parent.groovy" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370527592317" ignored="false" />
+    <file path="/a.dummy" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370535400816" ignored="false" />
+    <file path="/contact.gsp" changelist="596978d8-ec70-4cc1-aa8c-33e5ef4667fc" time="1370535188443" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,10 +104,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StudantClass.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/StudantClass.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="25" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.7083333">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teacher.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/Teacher.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="26" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.5416667">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/2.2.1/projects/fwhack/plugins/kickstart-with-bootstrap-0.9.6/grails-app/views/siteinfo/contact.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="24" selection-start="0" selection-end="1887" vertical-scroll-proportion="-4.364865">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/siteinfo/contact.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="25" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-4.3061223">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="5" selection-start="4181" selection-end="4181" vertical-scroll-proportion="0.7418478">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="64" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.46015424">
+            <state line="62" column="61" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages_de.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/2.2.1/projects/fwhack/plugins/kickstart-with-bootstrap-0.9.6/grails-app/i18n/messages_de.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="-6.44">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/2.2.1/projects/fwhack/plugins/kickstart-with-bootstrap-0.9.6/grails-app/i18n/messages.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="72" selection-start="3152" selection-end="3153" vertical-scroll-proportion="-26.96">
               <folding />
             </state>
           </provider>
@@ -226,7 +213,12 @@
         <option value="$PROJECT_DIR$/grails-app/domain/fwhack/Teacher.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fwhack/StudantClassController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fwhack/TeacherController.groovy" />
+        <option value="$USER_HOME$/.grails/2.2.1/projects/fwhack/plugins/kickstart-with-bootstrap-0.9.6/grails-app/views/siteinfo/contact.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/siteinfo/contact.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/fwhack/SmsController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/sms/sms.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       </list>
     </option>
   </component>
@@ -290,6 +282,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fwhack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -333,86 +389,6 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fwhack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -421,12 +397,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -594,7 +573,11 @@
       <created>1370527915582</created>
       <updated>1370527915582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="checkin with bootstrap">
+      <created>1370532929676</created>
+      <updated>1370532929676</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -603,31 +586,31 @@
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31629393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2539936" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5207668" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2539936" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.81629395" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36900958" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960254" sideWeight="0.68370605" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6086262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8194888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38338658" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36900958" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -674,7 +657,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial checking of domain classes and crud interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkin with bootstrap" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -691,6 +674,7 @@
     <MESSAGE value="intelij init checkin" />
     <MESSAGE value="tld files" />
     <MESSAGE value="initial checking of domain classes and crud interface" />
+    <MESSAGE value="checkin with bootstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -700,45 +684,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/unit/fwhack/StudantControllerTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fwhack/StudantController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="934" selection-end="934" vertical-scroll-proportion="-22.173914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fwhack/ParentController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/Studant.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="181" selection-end="199" vertical-scroll-proportion="-3.8958333">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/StudantClass.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.7708334">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fwhack/StudantClassController.groovy">
@@ -748,19 +698,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/Teacher.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.4791667">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fwhack/TeacherController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/parent/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="64" selection-start="287" selection-end="287" vertical-scroll-proportion="0.2843866">
           <folding />
         </state>
       </provider>
@@ -775,16 +722,80 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/parent/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/Studant.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="287" selection-end="287" vertical-scroll-proportion="0.2843866">
+        <state line="11" column="8" selection-start="181" selection-end="199" vertical-scroll-proportion="-3.8958333">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/StudantClass.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.7083333">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fwhack/Teacher.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.5416667">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.2.1/projects/fwhack/plugins/kickstart-with-bootstrap-0.9.6/grails-app/i18n/messages_de.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="-6.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.2.1/projects/fwhack/plugins/kickstart-with-bootstrap-0.9.6/grails-app/i18n/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="72" selection-start="3152" selection-end="3153" vertical-scroll-proportion="-26.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.2.1/projects/fwhack/plugins/kickstart-with-bootstrap-0.9.6/grails-app/views/siteinfo/contact.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="0" selection-end="1887" vertical-scroll-proportion="-4.364865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/siteinfo/contact.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="25" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-4.3061223">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="64" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.46015424">
+        <state line="62" column="61" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="5" selection-start="4181" selection-end="4181" vertical-scroll-proportion="0.7418478">
           <folding />
         </state>
       </provider>
@@ -796,8 +807,8 @@
         <entry key="fwhack">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-569255955" />
-              <option name="pluginDependenciesCrc" value="-17634248" />
+              <option name="buildConfigCrc" value="2062397534" />
+              <option name="pluginDependenciesCrc" value="150603955" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\Gavin Nunns\.grails\2.2.1\global-plugins" />
@@ -816,6 +827,94 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fwhack</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

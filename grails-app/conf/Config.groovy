@@ -90,7 +90,32 @@ log4j = {
            'net.sf.ehcache.hibernate'
 }
 
+twilio {
+    account {
+        sid = 'AC2b048d1d73ba7db8e5e37e2c325edf47'
+        auth_token = '926cd8aa657dc16ec79245dc26559d1c'
+    }
+
+    sms {
+        enable_status_callback = true  // set this to false if you DON'T want twilio to send ACK requests to your application
+    }
+
+    phones {
+        main = '+12703667478'
+    }
+}
+
 grails.config.defaults.locations = [KickstartResources]
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.fwhack.security.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.fwhack.security.UserRole'
+grails.plugins.springsecurity.authority.className = 'com.fwhack.security.Role'
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.fwhack.security.Admin'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.fwhack.security.AdminRole'
+grails.plugins.springsecurity.authority.className = 'com.fwhack.security.Role'
+
 // Added by the Spring Security Core plugin:
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.fwhack.security.User'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.fwhack.security.UserRole'
